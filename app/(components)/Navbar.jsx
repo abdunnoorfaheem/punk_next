@@ -16,9 +16,9 @@ const Navbar = () => {
                 <div className="">
                     <ul className='flex gap-x-8 font-montserrat'>
                         <li><Link href={"/"}>Home</Link></li>
-                        <li><Link href={"/"}>Pages</Link></li>
-                        <li><Link href={"/"}>Support</Link></li>
-                        <li><Link href={"/"}>Contact</Link></li>
+                        <li><Link href={"/pages"}>Pages</Link></li>
+                        <li><Link href={"/support"}>Support</Link></li>
+                        <li><Link href={"/contact"}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="">
